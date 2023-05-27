@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+   
+    <head> 
+
+            <meta charset="UTF-8">
+            <meta content="width=device-width, initial-scale=1"name="viewport"/>
+            <title>encriptador alura</title>
+            <img id="logo" src="imagenes/ENCRIPTADOR-PALABRA.png">
+            <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+            <script type="text/javascript" src="script.js"></script>
+        
+
+    </head>
+
+    
+    <body>
+
+
+    <div class="text">
+       
+       <textarea name="" id="text" cols="8" rows="5"onblur="if (this.value == '') {this.value = 'Ingrese el texto aquí';}" onfocus="if (this.value == 'Ingrese el texto aquí') {this.value = '';}" value="Ingrese el texto aquí"></textarea> 
+        
+    </div>
+       
+    <div class="textabajo">
+
+            <div class="solomya"> 
+            
+            <p>Solo letras minúsculas y sin acentos</p>
+        
+            </div>
+
+
+        <img id="vector" src="imagenes/Vector.png">
+
+    </div>
+
+
+        <button type="button" id ="boton1" name="button" onclick="encriptar()">Encriptar</button>
+
+        <button type="button" id ="boton2" name="button" onclick="desencriptar()">Desencriptar</button> 
+    
+        
+        <div class="rectangulo" id="rectangulo">
+
+            <div class="frase1" id="frase1">
+
+                <p>Ningún mensaje fue encontrado</p>
+
+            </div>
+
+            <div class="frase2" id="frase2">
+
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            
+             </div>
+
+        </div>
+    
+
+        <textarea name="textarea" id="textcifrado"></textarea>
+        
+        <button type="button" id ="copiar" name="button" onclick="copy()">Copiar</button>
+        
+
+        <img id="hada" src="imagenes/imagenoscura.png">
+
+
+    </body>
+
+<footer>
+
+<div class="footer">
+
+<p> Realizado por María Antonella Gocio - Challenge Encriptador </p>
+
+
+<a href="https://storyset.com/web">Web illustrations by Storyset</a>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

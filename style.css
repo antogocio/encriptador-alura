@@ -1,0 +1,510 @@
+#logo{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 20px;
+    top: 10px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+}
+
+body{
+    background-color: #EAE8DC;
+    }
+
+/**Rectang c/frases**/
+
+.rectangulo {
+    position: absolute;
+    width: 400px;
+    height: 580px;
+    left: 900px;
+    top: 40px;
+    bottom: 40px;
+    border-radius: 32px;
+    background: #BE2623;
+    box-shadow: 0px, 24px, 32px, -8px;
+    border-radius: 32px;
+}
+
+.frase1 {
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    left: 32px;
+    right: 32px;
+    top: 60%;
+    bottom: 307px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #EAE8DC;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.frase2 {
+
+        position: absolute;
+        width: 336px;
+        height: 48px;
+        left: 32px;
+        right: 32px;
+        top: 72%;
+        bottom: 243px;
+        font-family:'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #EAE8DC;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+    
+
+    /**Ingrese el texto aquí**/
+
+#text {
+
+    position: absolute;
+    bottom:808px;
+    width: 567px;
+    height: 441px;
+    top: 140px;
+    left: 120px;
+    right: 623px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 150%;
+    color: #0E3746;
+    text-align: left;
+    vertical-align: top;
+    background-color:#EAE8DC;
+    border-color:#EAE8DC;
+}
+
+.solomya {
+    position: absolute;
+    width: 205px;
+    height: 18px;
+    left: 140px;
+    right: 971px;
+    top: 599px;
+    bottom: 156px;
+    font-family:'Inter', sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #22142b;
+    opacity: 0.8;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+}
+
+#vector {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 9%;
+    right: 1184px;
+    bottom: 156px;
+    top: 599px;
+
+}
+
+/**Boton Encriptar**/
+
+#boton1 {
+    display: flex;
+    align-items: stretch;
+    padding: 24px;
+    gap: 8px;
+    background: #0E3746;
+    border-radius: 24px;
+    border: 1px solid #0E3746;
+    position: absolute;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 240px;
+    height: 19px;
+    left: 140px;
+    top: 640px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #EAE8DC;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+} 
+
+#boton1:hover {
+    padding: 30px; 
+    background: #BE2623; 
+    color: white; 
+}
+
+/**Boton Desencriptar**/
+
+#boton2 {
+    display: flex;
+    align-items: stretch;
+    padding: 24px;
+    gap: 8px;
+    background: #0E3746;
+    border: 1px solid #0E3746;
+    border-radius: 24px;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: absolute;
+    width: 240px;
+    height: 19px;
+    left: 440px;
+    top: 640px;   
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #EAE8DC;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+#boton2:hover {
+    padding: 30px; 
+    background: #BE2623; 
+    color: white; 
+}
+
+#hada {
+     
+position: absolute;
+width: 336px;
+height: 304px;
+left: 932px;
+top: 15%;
+
+}
+
+/**Boton Copiar**/
+#copiar {
+        
+
+box-sizing: border-box;
+display: none;
+flex-direction: row;
+padding: 24px;
+gap: 8px;
+position: absolute;
+background: #0E3746;
+border: 1px solid #0E3746;
+border-radius: 24px;
+left: 985px;
+top: 635px;
+width: 240px;
+height: 19px;
+font-family:'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+text-align: center;
+color: #EAE8DC;
+flex: none;
+order: 0;
+flex-grow: 1;
+align-items: stretch;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+justify-content: space-around;
+align-content: space-around;
+}
+
+#textcifrado {
+
+position: absolute;
+width: 336px;
+height: 500px;
+left: 930px;
+top: 72px;
+font-family:'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+border: none;
+border-bottom: none;
+color: #0E3746;
+background: none;
+
+}
+
+
+
+.footer {
+    position: absolute;
+    top: 800px;    
+    left: 40%;
+    color: #22142b;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0.3%;
+    letter-spacing: 1px;
+    font-family:'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 400;
+}
+
+
+/**Celular**/
+    
+ @media only screen and (max-device-width:767px){
+
+    #logo {
+
+        position: absolute;
+        width: 100px;
+        height: 70px;
+        left: 7px;
+        top: 5px;
+    }
+
+    
+    #text {
+
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        left: 7%;
+        top: 100px;
+        font-size: 23px;
+
+    }
+
+    #vector {
+        position: absolute;
+        left: 10%;
+        top: 420px;
+        width: 1em;
+    }
+
+    .solomya {
+        position: absolute;
+        width: 18em;
+        left: 16%;
+        top: 420px;
+        
+    }
+
+    #boton1 {
+        position: absolute;
+        left: 20%;
+        top: 470px;
+        width: 12em;
+    }
+
+    #boton2 {
+        position: absolute;
+        left: 20%;
+        top: 540px;
+        width: 12em;
+    }
+
+    #hada {
+        
+        display: none;
+    }
+
+    .rectangulo {
+        position: absolute;
+        left: 8%;
+        width: 20.625em;
+        height: 400px;
+        top: 650px;
+    }
+
+    .frase1 {  
+        position: absolute;
+        width: 10em;
+        left: 12%;
+        top: 130px;
+        bottom: 550px;
+
+    }
+
+    .frase2 {
+        position: absolute;
+        width: 18em;
+        left: 6%;
+        top: 200px;
+        bottom: 570px;
+    }
+      
+    #textcifrado{
+        position: absolute;
+        left: 50px;
+        width: 15em;
+        height: 370px;
+        top: 660px;
+        bottom: 300px;
+        font-size: 20px;
+        
+    }
+
+    #copiar {
+        position: absolute;
+        width: 12em;
+        left: 20%;
+        top: 1080px;
+        bottom: 280px;
+       }
+
+
+    .footer {
+        position: absolute;
+        top: 1200px;
+        left: 20%;
+        font-size: 0.75em;
+        width: 21.875em;
+
+    }
+
+ }
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
+
+    #logo {
+
+        position: relative;
+        width: 6.25em;
+        height: 70px;
+        left: 0%;
+        top: 0%;
+    }
+
+    #text {
+
+        position: absolute;
+        width: 22em;
+        height: 300px;
+        left: 3%;
+        top: 100px;
+        font-size: 20px;
+
+    }
+
+    #vector {
+        position: absolute;
+        width: 1em;
+        left: 3%;
+        top: 420px;
+    }
+
+    .solomya {
+        position: absolute;
+        width: 18em;
+        left: 6%;
+        top: 420px;
+    }
+
+    #boton1 {
+        position: absolute;
+        width: 11em;
+        left: 4%;
+        top: 460px;
+        bottom: 100px
+    }
+    
+
+    #boton2 {
+        position: absolute;
+        width: 11em;
+        left: 34%;
+        top: 460px;
+        bottom: 100px;
+    }
+
+    #hada {
+        
+        display: none;
+    }
+
+    .rectangulo {
+        position: absolute;
+        width: 31em;
+        left: 3%;
+        height: 250px;
+        top: 550px;
+    }
+
+    .frase1{  
+        position: absolute;
+        width: 25.5rem;
+        left: 10%;
+        top: 20%;   
+    }
+    
+    .frase2 {
+        position: absolute;
+        padding: 0.3px;
+        width: 31rem;
+        left: 0%;
+        top: 45%;
+    }
+
+
+    #textcifrado{
+        position: absolute;
+        left: 11%;
+        width: 36.25em;
+        height: 220px;
+        top: 590px;
+        bottom: 300px;
+        font-size: 20px;
+        
+    }
+
+    #copiar {
+        position: absolute;
+        width: 12em;
+        left: 35%;
+        top: 880px;
+        bottom: 280px;
+       }
+
+       .footer {
+        position: absolute;
+        width: 45em;
+        bottom: 0%;
+        left: 1%;
+        align-items: center;
+        height: 2.5em;
+        }
+    }
